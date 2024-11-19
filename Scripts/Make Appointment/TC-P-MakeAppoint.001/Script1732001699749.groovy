@@ -24,8 +24,9 @@ WebUI.click(findTestObject('Object Repository/Login Repository/Page_Login/a_Logi
 WebUI.setText(findTestObject('Object Repository/Login Repository/Page_Login/input_Username_username'), '')
 WebUI.setText(findTestObject('Object Repository/Login Repository/Page_Login/input_Password_password'), '')
 WebUI.click(findTestObject('Object Repository/Login Repository/Page_Login/button_Login'))
-
-
+WebUI.click(findTestObject('Object Repository/Make Appointment Repository/Page_Make Appointment/select_Tokyo CURA Healthcare Center'))
+WebUI.click(findTestObject('Object Repository/Make Appointment Repository/Page_Make Appointment/input_Apply for hospital readmission_hospital_readmission'))
+WebUI.click(findTestObject('Object Repository/Make Appointment Repository/Page_Make Appointment/input_Medicaid_programs'))
 WebUI.click(findTestObject('Object Repository/Make Appointment Repository/Page_Make Appointment/input_Visit Date (Required)_visit_date'))
 WebUI.click(findTestObject('Object Repository/Make Appointment Repository/Page_Make Appointment/td_27'))
 String selectedDate = WebUI.getText(findTestObject('Object Repository/Make Appointment Repository/Page_Make Appointment/input_Visit Date (Required)_visit_date'))
